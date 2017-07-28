@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="UTF-8">
+    <title>DROPS安全导肮</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+<div id="app">
+    <header class="header">
+        <nav class="inner">
+            <a href="/" class="logo">DROPS安全导肮</a>
+            <a v-for="record in records" :href="'#' + record.classify">{{ record.classify }}</a>
+        </nav>
+    </header>
+    <div class="content-view view">
+        <div class="content-list">
+            <ul>
+                <li class="classify" v-for="record in records" :id="record.classify">
+                    <p class="classify-title">{{ record.classify }}</p>
+                    <div class="level" v-for="level in record.levels">
+                        <p class="level-title">{{ level.level }}</p>
+                        <div class="level-item">
+                            <a is="item" v-for="item in level.items" v-bind:item="item"></a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <footer class="footer">
+        <div class="inner">
+        <p>内容投稿或建议请联系admin@dropsec.xyz</p>
+        <p>2017 © 中原工学院DROPS攻防训练营</p>
+        </div>
+    </footer>
+</div>
+</body>
+<script src="app.js"></script>
+</html>
