@@ -483,6 +483,9 @@ var records = [
                     {
                         level: '社工库',
                         items: [
+							{ name: "华西安全网密码泄露查询", desc: "华西安全网密码泄露查询", href: "http://cha.hx99.net/"},
+							{ name: "社工库密码查询", desc: "社工库密码查询", href: "http://163.donothackme.club/"},
+							{ name: "社工库", desc: "社工库", href: "https://haveibeenpwned.com/"},
                             { name: "", desc: "", href: ""},
                             { name: "", desc: "", href: ""},
                         ]
