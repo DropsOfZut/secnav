@@ -255,7 +255,7 @@ var records = [
                     {
                         level: 'WEB前端',
                         items: [
-                            {name:"Boottrap（中文）",desc:"bootstrap中文网",href:"http://www.bootcss.com/"},
+                            {name:"Bootstrap（中文）",desc:"bootstrap中文网",href:"http://www.bootcss.com/"},
                             {name:"vue.js",desc:"渐进式JavaScript 框架",href:"https://cn.vuejs.org/"},
                             { name: "ECMAScript 6 入门", desc: "ECMAScript 6 入门", href: "http://es6.ruanyifeng.com/"},
                             { name: "", desc: "", href: ""},
@@ -461,7 +461,8 @@ var records = [
                             { name: "Hash解密", desc: "Hash解密", href: "http://tool.oschina.net/encrypt?type=2"},
                             { name: "PHP解密", desc: "PHP解密", href: "http://decode.laosiji.work/"},
                             { name: "quipqiup（字符替换解密）", desc: "字符替换解密", href: "http://quipqiup.com/"},
-                            { name: "", desc: "", href: ""},
+                            { name: "OnlineHashCrack", desc: "Professional  Password Recovery", href: "https://www.onlinehashcrack.com"},
+							{ name: "", desc: "", href: ""},
                         ]
                     },
                     {
