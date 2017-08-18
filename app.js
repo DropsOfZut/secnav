@@ -462,7 +462,7 @@ var records = [
                             { name: "PHP解密", desc: "PHP解密", href: "http://decode.laosiji.work/"},
                             { name: "quipqiup（字符替换解密）", desc: "字符替换解密", href: "http://quipqiup.com/"},
                             { name: "OnlineHashCrack", desc: "Professional  Password Recovery", href: "https://www.onlinehashcrack.com"},
-							{ name: "", desc: "", href: ""},
+							{ name: "NTHashes", desc: "LMHASH/NTHASH", href: "http://www.objectif-securite.ch/en/ophcrack.php"},
                         ]
                     },
                     {
