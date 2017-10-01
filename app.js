@@ -239,7 +239,7 @@ var records = [
                         items: [
                             {name:"廖雪峰python教程",desc:"廖雪峰python教程",href:"https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000"},
                             {name:"Python风格指南（Google）",desc:"Google Python风格",href:"https://zh-google-styleguide.readthedocs.io/en/latest/google-python-styleguide/python_style_rules/"},
-                            { name: "", desc: "", href: ""},
+                            { name: "Python最佳实践指南中文版", desc: "Python最佳实践指南", href: "http://pythonguidecn.readthedocs.io/zh/latest/"},
                             { name: "", desc: "", href: ""},
                         ]
                     },
