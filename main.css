@@ -63,11 +63,6 @@ a.logo {
     padding: 0 50px;
 }
 
-.classify {
-
-}
-
-
 .classify .classify-title {
     padding: 10px 0;
     font-size: 18px;
@@ -93,13 +88,16 @@ a.logo {
     overflow: hidden;
 }
 
-.level-item a {
+.level-item li {
     margin-right: 15px;
     float: left;
-    text-decoration: none;
     font-size: 14px;
     height: 46px;
     line-height: 46px;
+}
+
+.level-item a {
+    text-decoration: none;
     color: #eee;
     text-transform: capitalize;
 }

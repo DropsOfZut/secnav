@@ -1,10 +1,9 @@
 /**
  * Created by Rick on 2017/7/26.
  */
-
 Vue.component('item', {
     props: ['item'],
-    template: '<a  :href="item.href" :data-tip="item.desc" target="_blank">{{ item.name }}</a>'
+    template: '<li><el-tooltip class="item" effect="dark" :content="item.desc" placement="top"><a :href="item.href" :data-tip="item.desc" target="_blank">{{ item.name }}</a></el-tooltip></li>'
 })
 
 var records = [
